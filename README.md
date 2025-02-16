@@ -10,7 +10,7 @@ Integrate ROS2 with the fish-shell, and add interactive goodies to make you robo
 Using [fisher](https://github.com/jorgebucaran/fisher)
 
 ```sh
-fisher install kpbaks/ros2.fish
+fisher install Creador270/ros2.fish
 ```
 In case to have a souerce installation, add the `ROS2_PATH` environment variable to the path of your ros installation at the end of the configuration file of your terminal.
 
