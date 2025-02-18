@@ -121,7 +121,7 @@ if not set -q ROS_DISTRO
     # checked in order of release date
     # distributions that have reached EOL are not included (as of 2023-03-06)
 
-    if [ $ROS2_PATH = "/opt/ros" ]
+    if test "$ROS2_PATH" = "/opt/ros"
       # ROS_DISTRO
       pushd $ROS2_PATH
 
